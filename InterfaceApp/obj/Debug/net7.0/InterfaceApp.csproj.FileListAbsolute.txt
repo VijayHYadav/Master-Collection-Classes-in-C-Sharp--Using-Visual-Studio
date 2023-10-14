@@ -1,0 +1,15 @@
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\bin\Debug\net7.0\InterfaceApp.exe
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\bin\Debug\net7.0\InterfaceApp.deps.json
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\bin\Debug\net7.0\InterfaceApp.runtimeconfig.json
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\bin\Debug\net7.0\InterfaceApp.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\bin\Debug\net7.0\InterfaceApp.pdb
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.csproj.AssemblyReference.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.AssemblyInfoInputs.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.AssemblyInfo.cs
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.csproj.CoreCompileInputs.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\refint\InterfaceApp.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.pdb
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\InterfaceApp.genruntimeconfig.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\InterfaceApp\obj\Debug\net7.0\ref\InterfaceApp.dll

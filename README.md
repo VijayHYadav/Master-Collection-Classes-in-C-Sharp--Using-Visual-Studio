@@ -1,26 +1,23 @@
-### INTRODUCTION TO COLLECTION CLASSES IN C#
+### INTERFACE IN C#
 
-What are collections and why are they needed in C#?
-A C# collection is a group of multiple objects. Collection classes are specialized classes for data storage and retrieval.
-The following namespaces may be used to add, remove and modify individual elements or a range of elements in a collection:
-1. System. Array (Arrays collection can't be resized dynamically at run-
-time)
-2. System.Collections
-3. System.Collections.Generic
-4. System.Collections.Concurrent
-5. System.Collections.Specialized
+An interface contains definitions for a group of related functionalities
+that a class can implement.
 
-In fact Arrays do not fall strictly under collection classes as though they are a collection, they don't possess the main two characteristics for
-collection classes:
-1. They are fixed in size and can't be resized dynamically(at runtime) 
-2. You can not access, insert or remove items by the array index
-Of the collections namespaces mentioned previously, the following two are the most often used:
+An interface in C# contains only the definition of the methods, properties, and events, but not the implementation.
 
-1. Non-generic (System.Collections namespace)
-2. Generic (System.Collections.Generic namespace)
+It is left to the class that implements the interface by providing implementation for all the members of the interface.
 
-###### <em>Generic classes are the preferred way of creating collection. They are type safe and have better overall performance than their non-generic counterparts. </em>
+From another perspective, interface could be viewed as a blueprint that all the classes inheriting (or implementing) the interface should follow.
 
+1. The class can inherit from multiple (more than one) interfaces (multiple inheritance)
+2. The implementing classes for the interfaces must implement the method(define the method body) whose signature is defined in the interface
+3. The implementing class can have its own methods as well(as implementing the interface methods)
 
-#### Conclusion:
-In concluding, we have seen the concept of collections in C# and the possible application areas that use them. We have also seen that arrays, though a collection are not useful because of their limitations. We have also got introduced to generic and non-generic classes with a comparision between the two. We have also seen the reason of always working with generic-collections over (no-generic one) if we have the choice. We have briefly touched upon the concept of concurrent and specialized collection classes
+###### Other features of an interface:
+- Like classes interfaces can also contain properties, methods, events and delegates (but no fields) with only declaration and no
+implementation
+- By default, interface members are public and so they don't allow explicit access modifiers
+- When a class implements(inherits) from an interface, it must provide implementation for all interface members. We get a compile error otherwise.
+- Interfaces can also inherit from other interfaces. A class inheriting (or implementing) this interface is required to implement all the members of the entire interface inheritance chain
+- An Interface reference variable can point to a derived class object however, the interfaces
+can't be instantiated.
