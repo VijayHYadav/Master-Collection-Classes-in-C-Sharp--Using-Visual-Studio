@@ -1,6 +1,6 @@
 namespace InterfaceApp
 {
-    abstract class Message
+    public abstract class Message
     {
         public string? sender;
         private readonly int messageID;
