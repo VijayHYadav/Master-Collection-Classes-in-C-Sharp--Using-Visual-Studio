@@ -70,3 +70,5 @@ public Employee GetEmployee(object employee)
     //allows you to reflect on the object's type.
 }
 ```
+
+### Section 4: Non-Generic Collection Classes(ArrayList)
