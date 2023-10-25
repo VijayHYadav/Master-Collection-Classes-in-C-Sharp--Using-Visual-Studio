@@ -1,0 +1,15 @@
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\bin\Debug\net7.0\OOPS.exe
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\bin\Debug\net7.0\OOPS.deps.json
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\bin\Debug\net7.0\OOPS.runtimeconfig.json
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\bin\Debug\net7.0\OOPS.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\bin\Debug\net7.0\OOPS.pdb
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.csproj.AssemblyReference.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.AssemblyInfoInputs.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.AssemblyInfo.cs
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.csproj.CoreCompileInputs.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\refint\OOPS.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.pdb
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\OOPS.genruntimeconfig.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\OOPS\obj\Debug\net7.0\ref\OOPS.dll

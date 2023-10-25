@@ -43,3 +43,30 @@ description (methods) that are inherited by all of its descendants in the class 
 - In abstract classes, the abstract modifier must be applied to each abstract method.
 - Any class that contains one or more abstract methods must be declared as abstract.
 - Note: because a subclass must provide an implementation for an abstract method, the method must have either public or protected visibility.
+
+
+REFLECTION IN C#
+Reflection is a way to inspect the assembly meta data in at runtime. It is used to find all types in an assembly and/or dynamically invoke methods in an assembly
+Applications:
+1. The properties window in a win forms or asp.net web applications, where a control is dragged and dropped on forms, uses reflection to
+show all the properties of the control(say button) under context. 
+2. We can achieve late binding by using reflection to dynamically create an instance of a type, about which we don't have any knowledge at compile time. This way, reflection allows us to use code that's not available at compile time.
+
+- Reflection also means "asking an object questions about itself." It could also mean asking the runtime questions about an object. 
+- There are many possible scenarios where you need to do that, but here is one
+- Let's say, you are asked to write a method named GetEmployee, which will receive an Employee class object. The method should set 
+the name of the Employee's department and return that object to the caller.
+
+REFLECTION IN C#
+If you are new programmer, you could declare the method (with some comments):
+```
+public Employee GetEmployee(object employee)
+{
+    // You need to make sure before you do anything with the 
+    //argument that it *is* indeed an object of the Employee class. 
+    // How would you do that?
+    // This is an example where you need to know stuff about an // 
+    //object. So, you ask the object or use one of the operators that 
+    //allows you to reflect on the object's type.
+}
+```
