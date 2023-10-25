@@ -1,45 +1,27 @@
 ﻿using System.Reflection;
 using OOPS;
 
+// Early binding
 Employee employee = new Employee();
-Type T = employee.GetType();
 
-Console.WriteLine($"The full name of the type is {T.FullName}");
-Console.WriteLine($"The name of the type is {T.Name}");
-Console.WriteLine($"The namespace is {T.Namespace}");
+int salary = employee.GetSalary(2500);
 
-PropertyInfo[] properties = T.GetProperties();
+Console.WriteLine($"Salary is = {salary}");
 
-Console.WriteLine("Each of the properties of the type T has the following details:");
 
-foreach (PropertyInfo property in properties)
-{
-    Console.WriteLine($"Name = {property.Name}, Type = {property.PropertyType.Name}");
-}
 
-MethodInfo[] methods = T.GetMethods();
+//Late binding
+Assembly assembly = Assembly.GetExecutingAssembly();
 
-Console.WriteLine("Each of the methods of the type T has the following details:");
+Type employeeType =  assembly.GetType("OOPS.Employee");
 
-foreach (MethodInfo method in methods)
-{
-    Console.WriteLine($"Name = {method.Name}, Return Type = {method.ReturnType.Name}");
-}
+object employeeInstance =  Activator.CreateInstance(employeeType);
 
-ConstructorInfo[] constructors = T.GetConstructors();
+MethodInfo getSalaryMethod = employeeType.GetMethod("GetSalary");
 
-Console.WriteLine("Each of the constructor of the type T has the following details:");
+int[] param = new int[1];
+param[0] = 4000;
 
-foreach (ConstructorInfo constructor in constructors)
-{
-    Console.WriteLine($"Name = {constructor.Name}, Parameters = {constructor}");
-}
+int salary2 =  (int) getSalaryMethod.Invoke(employeeInstance, param.Cast<object>().ToArray());
 
-FieldInfo[] fields = T.GetFields();
-
-Console.WriteLine("Each of the fields of the type T has the following details:");
-
-foreach (FieldInfo field in fields)
-{
-    Console.WriteLine($"Name = {field.Name}");
-}
+Console.WriteLine($"Salary is by late binding = {salary2}");
