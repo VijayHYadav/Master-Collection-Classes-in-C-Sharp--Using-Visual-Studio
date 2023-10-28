@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj": {}
+    "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj": {}
   },
   "projects": {
-    "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj": {
+    "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj",
+        "projectUniqueName": "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj",
         "projectName": "NonGenericClassDemo",
-        "projectPath": "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj",
+        "projectPath": "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\NonGenericClassDemo.csproj",
         "packagesPath": "C:\\Users\\omsai\\.nuget\\packages\\",
-        "outputPath": "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\obj\\",
+        "outputPath": "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\NonGenericClassDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omsai\\AppData\\Roaming\\NuGet\\NuGet.Config",
