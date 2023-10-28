@@ -1,0 +1,15 @@
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\bin\Debug\net7.0\Ex_ArrayList.exe
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\bin\Debug\net7.0\Ex_ArrayList.deps.json
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\bin\Debug\net7.0\Ex_ArrayList.runtimeconfig.json
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\bin\Debug\net7.0\Ex_ArrayList.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\bin\Debug\net7.0\Ex_ArrayList.pdb
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.csproj.AssemblyReference.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.AssemblyInfoInputs.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.AssemblyInfo.cs
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.csproj.CoreCompileInputs.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\refint\Ex_ArrayList.dll
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.pdb
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\Ex_ArrayList.genruntimeconfig.cache
+D:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Ex_ArrayList\obj\Debug\net7.0\ref\Ex_ArrayList.dll
