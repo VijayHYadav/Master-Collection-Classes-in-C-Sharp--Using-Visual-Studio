@@ -61,6 +61,45 @@ namespace NonGenericClassDemo
             {
                 Console.WriteLine($"{item}");
             }
+
+
+
+
+            ArrayList aList2 = new ArrayList();
+
+            // Add an object array
+            aList2.AddRange(new object[] { "Mike", "Sally", "Egg" });
+            foreach (var item in aList2)
+            {
+                Console.WriteLine("The members of the new list are {0}", item);
+            }
+
+            // Add 1 array list to another
+            aList.AddRange(aList2);
+            foreach (var item in aList)
+            {
+                Console.WriteLine("The revised members of the list are {0}", item);
+            }
+
+            // Insert at the 2nd position
+            aList2.Insert(1, "Turkey");
+            foreach (var item in aList2)
+            {
+                Console.WriteLine("The members of the revised list are {0}", item);
+            }
+
+
+            // Get the 1st 2 items
+            ArrayList range = aList2.GetRange(0, 2);
+            foreach (var item in range)
+            {
+                Console.WriteLine("The members of the shortened list are {0}", item);
+            }
+
+            //End lecture 3
+
+           
+            Console.ReadLine();
         }
     }
 }
