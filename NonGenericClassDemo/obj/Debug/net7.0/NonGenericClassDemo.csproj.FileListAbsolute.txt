@@ -1,0 +1,15 @@
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\bin\Debug\net7.0\NonGenericClassDemo.exe
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\bin\Debug\net7.0\NonGenericClassDemo.deps.json
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\bin\Debug\net7.0\NonGenericClassDemo.runtimeconfig.json
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\bin\Debug\net7.0\NonGenericClassDemo.dll
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\bin\Debug\net7.0\NonGenericClassDemo.pdb
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.csproj.AssemblyReference.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.GeneratedMSBuildEditorConfig.editorconfig
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.AssemblyInfoInputs.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.AssemblyInfo.cs
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.csproj.CoreCompileInputs.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.dll
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\refint\NonGenericClassDemo.dll
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.pdb
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\NonGenericClassDemo.genruntimeconfig.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\NonGenericClassDemo\obj\Debug\net7.0\ref\NonGenericClassDemo.dll

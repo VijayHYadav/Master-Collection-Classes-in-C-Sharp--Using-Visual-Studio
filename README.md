@@ -72,3 +72,31 @@ public Employee GetEmployee(object employee)
 ```
 
 ### Section 4: Non-Generic Collection Classes(ArrayList)
+
+COLLECTIONS (NON-GENERIC CLASSES)
+- ArrayList
+    - Implements the IList interface using an array whose size is dynamically increased as required.
+    - An implementation of IList interface is available at the MS- documentation at https://docs.microsoft.com/en-us/dotnet/api/system.collections.ilist?view=netframework-4.8
+    - An arraylist represents an ordered collection of an object that can be indexed individually.
+    - Although similar to an array, the difference is in the ability to add/remove items from a list at a specified position using an index.
+    - It also allows dynamic memory allocation, searching and sorting items in the list.
+
+MICROSOFT DOCUMENTATION
+During the course of this section, I strongly recommend the learners to frequent the following MS link for official documentation on non-generic collection classes:
+https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=netframework-4.8 Also for a history of .Net framework releases please visit : https://en.wikipedia.org/wiki/.NET Framework version history
+If you have been using earlier versions of the framework you could still switch over to your version on the first link on top to get the documentation for that version
+
+
+14. Arrays and Non-Generic Classes
+Learning Outcome:
+To demonstrate that Arrays are fixed in size and can't resize dynamically Compare this with ArrayList which can be resized dynamically at runtime
+To display the Array and ArrayList collection on the console
+
+• Lesson Plan:
+- 1.Create an array of Employee type with a size (say3)
+- 2.Add 4 items to the array.
+- 3.Compile the app and show it compiles.
+- 4.Run the app, it fails with an exception.
+- 5.Create an array list with a size (say2).
+- 6.Add some Employee objects more than the size .
+- 7.Compile and run and show it grows dynamically at runtime without any exception.
