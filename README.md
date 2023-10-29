@@ -100,3 +100,19 @@ To display the Array and ArrayList collection on the console
 - 5.Create an array list with a size (say2).
 - 6.Add some Employee objects more than the size .
 - 7.Compile and run and show it grows dynamically at runtime without any exception.
+
+
+COLLECTIONS (NON-GENERIC CLASSES)
+Hashtable class:
+- Represents a collection of key/value pairs that are organized based on
+the hash code of the key. It uses the key to access the elements of the collection class.
+- Hashtable class is inherited from Object class. 
+- Implements the following interfaces:
+Icollection, Idictionary, lenumerable, Icloneable, IDeserializationCallback, ISerializable
+
+During the course of this section, I strongly recommend the learners to frequent the following MS link 
+for official documentation on non-generic collection classes:
+https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=netframework-4.8 
+Also for a history of .Net framework releases please visit : https://en.wikipedia.org/wiki/.NET Framework version history
+If you have been using earlier versions of the framework you could still switch over to your version on the first 
+link on top to get the documentation for that version
