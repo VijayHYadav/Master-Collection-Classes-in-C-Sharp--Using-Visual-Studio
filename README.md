@@ -116,3 +116,107 @@ https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=netframework
 Also for a history of .Net framework releases please visit : https://en.wikipedia.org/wiki/.NET Framework version history
 If you have been using earlier versions of the framework you could still switch over to your version on the first 
 link on top to get the documentation for that version
+
+
+
+COLLECTIONS (GENERIC CLASSES)
+- Generics were added to version 2.0 of the C# language
+- The most common use of generics is to create collection classes known as Generic collection classes.
+- The Generic collection classes uses System.Collections.Generic namespace.
+- Generics introduce to the .NET Framework the concept of type parameters.
+- Type parameters make it possible to design classes and methods that defer the specification of one or 
+more types until they are declared and
+instantiated by client code.
+- By using a generic type parameter T, we can write a single class that other client code can use 
+without incurring the risk or cost of  boxing operations, as shown in the next slide
+
+```
+
+CODE EXAMPLES(GENERIC TYPE<T>)
+
+// Declare the generic class.
+public class GenericList<T>
+{
+    public void Add(T input) {Console.WriteLine($"Parameter type = {typeof(T).ToString()}, value = = {input}"); }
+}
+
+class TestGenericList
+{
+    private class ExampleClass {}
+    static void Main()
+    {
+        // Declare a list of type int.
+        GenericList<int> list1 = new GenericList<int>();
+        list1.Add(1);
+        list1.Add(2);
+
+        // Declare a list of type string.
+        GenericList<string> list2 = new GenericList<string>();
+        list2.Add("hello");
+        list2.Add("world!");
+
+        // Declare a list of type ExampleClass.
+        GenericList<ExampleClass> list3 = new GenericList<ExampleClass>();
+        list3.Add(new ExampleClass());
+    }
+}
+
+```
+
+# COLLECTIONS (GENERIC CLASSES)
+- Generic classes are the preferred way of creating collection.
+- They are type safe and have better overall performance than their non- generic counterparts.
+- Generic types should be used to maximize code reuse.
+- However we need to study non-generic classes to maintain legacy applications in C#
+- You can create your own generic interfaces, classes, methods, events and delegates.
+- Generic classes may be constrained to be used on particular data types. (An example code is as in the next slide)
+- This increases the number of allowable operations and method calls to those supported by the constraining type and all types in its inheritance hierarchy
+
+
+### Constraint by Value type:
+    You can constrain a generic type to a value type by setting the constraint of the type as follows.
+    ```class ConstrainByValueType<T> where T: struct {}```
+    Here the struct keyword is used to constrain T to a value type. The object can then be instantiated like new ConstrainByValueType<double>, and you can specify any value type as you want.
+### Constraint to Allow Only Reference Types
+    You can also constrain the type to allow only reference types. Similar to how you would do it for value types, you would use the class keyword to constrain the type to a reference type.
+    ```class ConstrainByReferenceType<T> where T : class {}```
+
+
+### Interface Type Constraint
+You can constrain the generic type by interface, thereby allowing only classes that implement that interface or classes that inherit from classes that implement the interface as the type parameter. The code below constrains a class to an interface.
+
+interface IShape { }
+class Square IShape {}
+interface IFourSidedShape: IShape { } class Rectangle : IFourSidedShape {} class Small Rectangle : Rectangle { }
+class ConstrainByInterface<T> where T : IFourSidedShape {}
+
+The type T above is constrained to the IFourSidedShape interface, which allows only classes that implements this interface (or classes that inherit from a class that 
+implements the interface) to access the generic type. Even if the IFourSidedShape inherits from the IShape interface, you can't use Square as the type for T. You can only 
+use Rectangle or Small Rectangle type.
+
+
+### Interface Type Constraint
+You can constrain the generic type by interface, thereby allowing only classes that implement that interface or classes that inherit from classes that implement the 
+interface as the type parameter. The code below constrains a class to an interface.
+
+```interface IShape { }
+class Square IShape {}
+interface IFourSidedShape: IShape { } 
+class Rectangle : IFourSidedShape {} 
+class Small Rectangle : Rectangle { }
+```
+class ConstrainByInterface<T> where T : IFourSidedShape {}
+The type T above is constrained to the IFourSidedShape interface, which allows only classes that implements this interface (or classes that inherit from a class that implements the interface) to access the generic type. Even if the IFourSidedShape inherits from the IShape interface, you can't use Square as the type for T. You can only use Rectangle or Small Rectangle type.
+
+
+- In the previous slide, we are constraining T to use IRectangle interface and it must have a parameterless public constructor.
+- We have two classes which implement IRectangle interface.
+- The Small Rectangle class implements this interface but has a public constructor with parameters (and no public parameterless constructor). 
+- This doesn't satisfy the condition to use it as the type for the generic class. The BigRectangle class satisfies the condition and can be used as 
+the type parameter for the generic class.
+
+
+### When to Use Generic Collections
+- Using generic classes is usually recommended, as we gain the immediate benefit of type safety
+- We don't have to derive from a base collection class and implement type specific members for achieving type safety
+- Generic collection types perform better than the corresponding nongeneric collection types, because with generics there is no need to box the elements.

@@ -1,0 +1,15 @@
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\bin\Debug\net7.0\Generic_Classes.exe
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\bin\Debug\net7.0\Generic_Classes.deps.json
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\bin\Debug\net7.0\Generic_Classes.runtimeconfig.json
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\bin\Debug\net7.0\Generic_Classes.dll
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\bin\Debug\net7.0\Generic_Classes.pdb
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.csproj.AssemblyReference.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.GeneratedMSBuildEditorConfig.editorconfig
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.AssemblyInfoInputs.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.AssemblyInfo.cs
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.csproj.CoreCompileInputs.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.dll
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\refint\Generic_Classes.dll
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.pdb
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\Generic_Classes.genruntimeconfig.cache
+d:\Library\Writing\Master Collection Classes in C# Using Visual Studio\Generic_Classes\obj\Debug\net7.0\ref\Generic_Classes.dll
