@@ -44,6 +44,28 @@ namespace NonGenericClassDemo
             {
                 Console.WriteLine($"key ={item.Key}, value = {item.Value} ");
             }
+
+            Console.WriteLine("=========================================");
+
+            // * lecture 2 starts
+            ICollection collection = currencies.Keys;
+            Console.WriteLine();
+            foreach (string item in collection)
+            {
+                Console.WriteLine($"Key = {item}");
+            }
+
+
+            Console.WriteLine("Now let us use Remove() method");
+
+            currencies.Remove("Britain");
+
+            if(!currencies.ContainsKey("Britain"))
+            {
+                Console.WriteLine("Key \"Britain\" is not found");
+            }
+
+            // * lecture 2 end
         }
     }
 }
