@@ -256,3 +256,31 @@ List<T> Properties:
 - Count => The number of elements contained in the List<T>
 The Capacity can be trimmed to be equal to the number of elements in the collection (represented by Count property) by using 
 TrimExcess method as shown in the demo in Visual Studio
+
+# HashSet<T> Class
+- The collections we learnt so far like List<T>, ArrayList simply allow adding values to an object of these types and allow duplication of
+elements, i.e. they don't check for any duplication
+- To avoid such duplication, .NET framework provides a collection name set This is a collection type with distinct items
+Set has two types: HashSet and SortedSet
+
+Q. What is the difference between a HashSet and a SortedSet?
+Ans. Although both the types store unique or distinct items, if you prefer performance over ordered collection, then the choice 
+should be HashSet. On the other hand, if you want the items sorted after insertion in the collection and are ready to take a performance hit, 
+then choose SortedSet.
+
+
+### HashSet<T> Commonly Used Methods
+- Add(T) => Adds the specified element to a set
+- Clear() =>Removes all elements from a HashSet<T> object 
+- Contains(T) => Determines if a HashSet<T> object contains the specified element
+- ExceptWith(IEnumerable<T>) =>Removes all matching elements in the specified collection from the current HashSet<T> object 
+- IntersectWith(IEnumerable<T>) =>Modifies the current HashSet<T> object to contain only elements that are present in that object and the specified collection
+- IsProperSubsetOf(<T>) => Determines if a HashSet<T> object is a proper subset of the specified collection
+- IsProperSupersetOf(<T>) => Determines if a HashSet<T> object is a proper superset of the specified collection.
+- Remove(T) => Removes the specified element from HashSet<T> object 
+- Remove Where(Predicate<T>) => Removes all elements that match the conditions defined by the specified predicate 
+from a HashSet<T> collection (Example shown in Visual Studio)
+- SymmetricExceptWith(IEnumerable<T>) => Modifies the current HashSet<T> object to contain elements present in that 
+object or in the specified collection, but not both
+- UnionWith(IEnumerable<T>) => Modifies the current HashSet<T> object to contain elements that are present in tself, the specified collection, or both.
+Besides the above methods, the count property is available
