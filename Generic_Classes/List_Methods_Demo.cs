@@ -101,8 +101,8 @@ namespace Generic_Classes
             Console.WriteLine($"After removing the first and second person,there are {pList.Count} persons in the pList collection");
             Console.WriteLine($"The pList collection has a capacity of {pList.Capacity}");
             
-            pList.TrimExcess();
-            
+            pList.TrimExcess(); // ! If it is less than 10 percent then it will not resize.
+
             Console.WriteLine($"After using the TrimExcess method, the pList collection has a capacity of {pList.Capacity}");
         }
     }
