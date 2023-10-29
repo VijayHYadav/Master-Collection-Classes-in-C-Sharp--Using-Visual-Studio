@@ -254,3 +254,5 @@ List<T> Commonly Used Methods:
 List<T> Properties:
 - Capacity => The number of elements that the List<T> can contain before it needs resizing (The initial capacity of List<T> is 0.) 
 - Count => The number of elements contained in the List<T>
+The Capacity can be trimmed to be equal to the number of elements in the collection (represented by Count property) by using 
+TrimExcess method as shown in the demo in Visual Studio

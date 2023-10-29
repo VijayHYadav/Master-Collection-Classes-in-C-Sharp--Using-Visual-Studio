@@ -73,6 +73,37 @@ namespace Generic_Classes
             //Find Index
             int index = pList.FindIndex(p => p.LastName == "Smith");
             Console.WriteLine($"The index with FindIndex is = {index}");
+
+            // ! part 4
+            Console.WriteLine("Now let's look into the count and capacity properties of pList!!");
+            Console.WriteLine($"There are {pList.Count} items in the pList collection and they are:");
+            
+            foreach (Person p in pList)
+            {
+                Console.WriteLine($"First Name = {p.FirstName}, Last Name = { p.LastName}");
+            }
+            
+            Console.WriteLine($"the pList collection has a capacity of {pList.Capacity}");
+            
+            pList.Add(new Person { FirstName = "San", LastName = "Joss" });
+            pList.Add(new Person { FirstName = "Bruce", LastName = "James" });
+            pList.Add(new Person { FirstName = "Ellie", LastName = "Brown" });
+            
+            Console.WriteLine($"There are {pList.Count} items in the pList collection and they are:");
+            
+            foreach (Person p in pList)
+            {
+                Console.WriteLine($"First Name = {p.FirstName}, Last Name = { p.LastName}");
+            }
+            
+            pList.RemoveAt(0);
+            pList.RemoveAt(1);
+            Console.WriteLine($"After removing the first and second person,there are {pList.Count} persons in the pList collection");
+            Console.WriteLine($"The pList collection has a capacity of {pList.Capacity}");
+            
+            pList.TrimExcess();
+            
+            Console.WriteLine($"After using the TrimExcess method, the pList collection has a capacity of {pList.Capacity}");
         }
     }
 }
