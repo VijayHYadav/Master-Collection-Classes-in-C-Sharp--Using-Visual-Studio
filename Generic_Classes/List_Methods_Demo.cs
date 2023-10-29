@@ -28,7 +28,7 @@ namespace Generic_Classes
                 Console.WriteLine($"First Name = {p.FirstName}, Last Name = {p.LastName}");
             }
 
-            // part 2
+            // ! part 2
             Console.WriteLine(pList.IndexOf(person4));
             Console.WriteLine(pList.IndexOf(person4,2));
             Console.WriteLine(pList.IndexOf(person4, 2, 3));
@@ -40,6 +40,39 @@ namespace Generic_Classes
             {
                 Console.WriteLine("person1 object doesn't exist in the list");
             }
+
+            // ! part 3
+            if(pList.Exists(p=>p.FirstName.StartsWith("G")))
+            {
+                Console.WriteLine("the condition is satisfied");
+            }
+            else
+            {
+                Console.WriteLine("the condition is not satisfied");
+            }
+
+            Person person = pList.Find(x => x.LastName == "Ponting");
+            Console.WriteLine($"First Name = {person.FirstName}");
+
+            person = pList.FindLast(x => x.LastName == "Smith");
+            Console.WriteLine($"First Name = {person.FirstName},Last Name = {person.LastName}");
+            Console.WriteLine("Find All Method .............");
+
+            List<Person> pFindAll = pList.FindAll(x => x.LastName == "Smith");
+            foreach (var p in pFindAll)
+            {
+                Console.WriteLine($"First Name = {p.FirstName}, Last Name = { p.LastName}");
+            }
+
+            Console.WriteLine("Now the elements of pLIst");
+            foreach (var p in pList)
+            {
+                Console.WriteLine($"First Name = {p.FirstName}, Last Name = { p.LastName}");
+            }
+
+            //Find Index
+            int index = pList.FindIndex(p => p.LastName == "Smith");
+            Console.WriteLine($"The index with FindIndex is = {index}");
         }
     }
 }
