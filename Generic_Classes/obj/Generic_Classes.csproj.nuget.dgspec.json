@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj": {}
+    "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj": {}
   },
   "projects": {
-    "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj": {
+    "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj",
+        "projectUniqueName": "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj",
         "projectName": "Generic_Classes",
-        "projectPath": "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj",
+        "projectPath": "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\Generic_Classes.csproj",
         "packagesPath": "C:\\Users\\omsai\\.nuget\\packages\\",
-        "outputPath": "D:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\obj\\",
+        "outputPath": "d:\\Library\\Writing\\Master Collection Classes in C# Using Visual Studio\\Generic_Classes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omsai\\AppData\\Roaming\\NuGet\\NuGet.Config",
