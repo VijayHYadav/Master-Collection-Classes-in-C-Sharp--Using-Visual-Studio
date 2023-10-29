@@ -27,6 +27,19 @@ namespace Generic_Classes
             {
                 Console.WriteLine($"First Name = {p.FirstName}, Last Name = {p.LastName}");
             }
+
+            // part 2
+            Console.WriteLine(pList.IndexOf(person4));
+            Console.WriteLine(pList.IndexOf(person4,2));
+            Console.WriteLine(pList.IndexOf(person4, 2, 3));
+            if(pList.Contains(person1))
+            {
+                Console.WriteLine("person1 object exists in the list");
+            }
+            else
+            {
+                Console.WriteLine("person1 object doesn't exist in the list");
+            }
         }
     }
 }
