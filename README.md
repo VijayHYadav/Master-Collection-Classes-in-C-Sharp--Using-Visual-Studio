@@ -220,3 +220,37 @@ the type parameter for the generic class.
 - Using generic classes is usually recommended, as we gain the immediate benefit of type safety
 - We don't have to derive from a base collection class and implement type specific members for achieving type safety
 - Generic collection types perform better than the corresponding nongeneric collection types, because with generics there is no need to box the elements.
+
+
+# Generic Collection Classes (List<T>)
+
+
+List<T>
+- List<T> is a generic type of collection so it will allow to store only strongly typed objects i.e. an elements of same data type
+- Implements eight different interfaces : ICollection<T>, IEnumerable<T> IList<T>, IReadOnlyCollection<T>, IReadOnlyList<T>, ICollection
+IEnumerable, IList
+- Represents list of objects that can be accessed by index. Provides methods to search, sort and manipulate lists.
+- It is different from the arrays. A List<T> can be resized dynamically but arrays cannot.
+- List<T> class is the generic equivalent of ArrayList class by implementing the IList<T> generic interface.
+- List<T> class can accept null as a valid value for reference types and it also allows duplicate elements.
+- If the Count becomes equals to Capacity, then the capacity of the List increased automatically by reallocating 
+the internal array. The existing elements will be copied to the new array before the addition of the new element.
+- List<T> class is not sorted by default and elements are accessed by zero-based index.
+
+
+List<T> Commonly Used Methods:
+
+- Add => Add an element at the end of the List<T>
+- AddRange =>Adds elements of the specified collection at the end of a List<T>.
+- Insert => Inserts an element at any specified index
+- IndexOf => Finding the position of a particular object
+- Contains => Checks to see if a list contains an item
+- Exists => Checks if a list satisfies a specified condition
+- Find Finds the first match based on a specific condition(predicate function)
+- Remove => Removes the first occurence of the specified element.
+- TrimExcess => Sets the capacity to the actual number of elements in the List<T> if that number is less than a threshold value.
+
+
+List<T> Properties:
+- Capacity => The number of elements that the List<T> can contain before it needs resizing (The initial capacity of List<T> is 0.) 
+- Count => The number of elements contained in the List<T>
