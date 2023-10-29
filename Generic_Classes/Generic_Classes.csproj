@@ -5,6 +5,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Generic_Classes.List_Methods_Demo</StartupObject>
+
   </PropertyGroup>
 
 </Project>
