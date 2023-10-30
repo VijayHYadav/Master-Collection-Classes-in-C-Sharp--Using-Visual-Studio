@@ -284,3 +284,31 @@ from a HashSet<T> collection (Example shown in Visual Studio)
 object or in the specified collection, but not both
 - UnionWith(IEnumerable<T>) => Modifies the current HashSet<T> object to contain elements that are present in tself, the specified collection, or both.
 Besides the above methods, the count property is available
+
+
+# SortedSet<T> Class
+- This is a generic collection type with distinct items which are maintained in ascending sort order.
+- It also provides many mathematical set operations: union, intersection and difference.
+- Because it sorts the set, the performance takes a hit as compared to the HashSet<T> discussed previously.
+- A SortedSet<T> should be used when you need a sorted collection of unique elements.
+
+
+# SortedSet<T> Commonly Used Methods
+#### As you may expect, there are many methods which are used both in the HashSet<T> and SortedSet<T> as below:
+- Add<T>, 
+- Clear(), 
+- Contains(T), 
+- ExceptWith(IEnumerable<T> 
+- IntersectWith(IEnumerable<T>), 
+- IsProper SupersetOf(<T>),
+- IsProper SubsetOf(<T>), 
+- Remove(T), 
+- Remove Where(Predicate<T>), 
+- SymmetricExceptWith(IEnumerable<T>), 
+- UnionWith(IEnumerable<T>)
+
+#### The following two methods, however, are for SortedSet<T> and not available in HashSet<T>
+1. GetViewBetween(T,T) => Returns a view of a subset in SortedSet<T> 
+2. Reverse() => Reverses the set to a descending order
+Besides the above, Overlaps(IEnumerable<T>) determines if the 
+current SortedSet<T> object and a specified collection share common elements
